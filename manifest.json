@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Ajanımı Seç!",
+    "version": "1.0",
+    "description": "Valorant için rastgele ajan seçme eklentisi",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": []
+  }

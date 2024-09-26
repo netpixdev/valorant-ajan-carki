@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    width: 350px;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff4655;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #e6e6e6;
+}
+
+.developer {
+    margin-bottom: 20px;
+}
+
+.github-link {
+    display: inline-block;
+    padding: 3px 8px;
+    background: linear-gradient(110deg, #070707, 45%, #1b1b1b, 55%, #000000);
+    background-size: 200% 100%;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 10px;
+    transition: all 0.3s;
+    animation: bg-shine 2.1s linear infinite;
+}
+
+.github-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#wheel-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 20px;
+}
+
+#wheel {
+    width: 100%;
+    height: 100%;
+}
+
+#spin-button {
+    background-color: #ff4655;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+#spin-button:hover {
+    background-color: #e63e4c;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@keyframes bg-shine {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -200% 0;
+    }
+}
